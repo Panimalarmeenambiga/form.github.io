@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <style>
+div{
+     margin-left: 50px;
+}
+input {
+    style=text-align:left;
+}
+input[type="text"] {
+  display: block; /* Ensures it behaves as a block element */
+  margin:left ; /* Centers horizontally by setting equal left and right margins */
+  width: 300px; /* Set a specific width for the input box */
+}
+input[type="submit"] {
+  display: block; /* Ensures it behaves as a block element */
+  margin: 0 auto; /* Centers horizontally by setting equal left and right margins */
+  width: 100px; /* Set a specific width for the input box */
+}
+</style>
+<body style="background-color:rgb(253, 205, 197);">
+<h1 style="text-align:center;">Student Registration Form</h1>
+<div>
+<form action="/action_page.php">
+  <label for="rollno">Roll no :</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="stname">Student name :</label>
+  <input type="text" id="lname" name="lname"><br><br>
+ <label for="fname">Father's name :</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="dob">Date of birth :</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="mobno">Mobile no :</label>
+  <input type="text" id="lname" name="lname"><br><br>
+ <label for="mailid">Email id :</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="pass">Password :</label>
+  <input type="text" id="lname" name="lname"><br><br>
+   <label for="gender">Gender :</label>
+   <input type="radio" id="lname" name="lname">Male  <input type="radio" id="lname" name="lname">Female<br><br>
+   <label for="dept">Department :</label>
+   <input type="checkbox" id="lname" name="lname">CSE  <input type="checkbox" id="lname" name="lname">IT<input type="checkbox" id="lname" name="lname">ECE  <input type="checkbox" id="lname" name="lname">Civil <input type="checkbox" id="lname" name="lname">Mech<br><br>
+   <label for="course">Course : </label>
+  <select id="course" name="course">
+    <option value="choose">---------Select Current Course's--------- </option>
+    <option value="cse">CSE</option>
+    <option value="it">IT</option>
+    <option value="ece">ECE</option>
+    <option value="civil">Civil</option>
+    <option value="mech">Mech</option>
+  </select>
+  <br><br>
+  <label for="photo">Student photo :</label>
+  <input type="text" id="fname" name="fname" value="choose file "> No file choosen <br><br>
+    <label for="city name">City :</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="address name">Address :              </label>
+  <input type="text" id="lname" name="lname"><br><br>
+   <input type="submit" value="REGISTER">
+</form>
+</div>
+</body>
+</html>
